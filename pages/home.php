@@ -3,7 +3,7 @@ $page_title = "Home";
 
 $nav_home_class = "active_page";
 
-const RATING_STARS = array(
+const RATINGS = array(
   1 => "Poor",
   2 => "Fair",
   3 => "Good",
@@ -37,7 +37,7 @@ $restaurants = $restaurants_result->fetchAll();
         $tag_list = $tag_result->fetchAll();
         ?>
           <div class="cate-list">
-          <?php include('restaurant_card.php'); ?>
+          <?php include('includes/restaurant_card.php'); ?>
                   </div>
               </div>
           </div>
