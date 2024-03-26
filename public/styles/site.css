@@ -1,0 +1,109 @@
+html {
+    font-family: sans-serif;
+}
+
+h1,
+a {
+    color: navy;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #4682B4;
+}
+table .min {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.error {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b92467 solid;
+    color: #b92467;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.active_page {
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+.home{
+    width: 1200px;
+    margin: 10px auto;
+}
+.cate-list{
+    width: 33.3%;
+    margin-bottom: 5px;
+}
+.cate-item{
+    margin: 10px;
+    padding: 10px;
+    height: 330px;
+    border: 1px solid #cccccc;
+}
+.cate-img{
+    width: 100%;
+}
+.cate-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.cate-tag{
+    padding-top: 5px;
+}
+.cate-tag > div{
+    font-size: 12px;
+    border: 1px solid #000000;
+    margin-right: 5px;
+    padding: 2px 4px;
+}
+.title {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    color: white;
+    background-color: #556688;
+}
